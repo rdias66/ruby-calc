@@ -1,0 +1,18 @@
+<h1>Basic Calculator</h1>
+
+<%= form_tag(action: 'calculate') do %>
+  <label for="num1">Number 1:</label>
+  <%= text_field_tag 'num1' %>
+
+  <label for="operator">Operator:</label>
+  <%= text_field_tag 'operator' %>
+
+  <label for="num2">Number 2:</label>
+  <%= text_field_tag 'num2' %>
+
+  <%= submit_tag 'Calculate' %>
+<% end %>
+
+<% if @result %>
+  <h2>Result: <%= @result %></h2>
+<% end %>
