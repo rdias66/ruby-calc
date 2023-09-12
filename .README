@@ -1,0 +1,41 @@
+Calculator App
+This is a basic calculator web application built using Ruby on Rails. It allows users to perform simple arithmetic operations such as addition, subtraction, multiplication, and division.
+
+Features
+Addition of two numbers
+Subtraction of two numbers
+Multiplication of two numbers
+Division of two numbers
+
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+Prerequisites
+Make sure you have the following installed on your system:
+
+Ruby (latest version as of September 12, 2023)
+Ruby on Rails (latest version as of September 12, 2023)
+Node.js and npm(latest version as of September 12, 2023)
+
+Installing
+ 1 - Clone the repository to your local machine:
+      git clone https://github.com/your-username/calculator-app.git
+
+ 2 - Change into the project directory:
+      cd ruby-calc
+
+ 3 - Install the required gems:
+      bundle install
+
+ 4 - Install JavaScript dependencies:
+      npm install
+
+ 5 - Start the Rails server and run the application
+      bundle exec rails server
+
+Usage
+Enter the first number in the "Number 1" field, as of now the application will allow non number characters to be inserted, this will bug the app.
+Enter the second number in the "Number 2" fiel, as of now the application will allow non number characters to be inserted, this will bug the app
+Select the operation you want to perform from the dropdown menu (+, -, *, /).
+Click the "Calculate" button.
+The result will be displayed below.
